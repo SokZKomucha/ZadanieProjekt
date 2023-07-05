@@ -18,4 +18,4 @@ Jeżeli jednak kroki powyżej wydają się zbyt męczące, to zapraszam na adres
 
 ## Aktualizacja, 2023-07-05
 
-Niestety, oryginalny adres, http://130.61.252.120, nie służy już do hostowania tego oto projektu. Na pocieszenie, postanowiłem zrobić coś ze swoim życiem i teraz mam drugi serwer oraz własną [domenę](https://sokzkomucha.xyz). 
+Niestety, oryginalny adres, http://130.61.252.120, nie służy już do hostowania tego oto projektu. Na pocieszenie, postanowiłem zrobić coś ze swoim życiem i teraz mam drugi serwer oraz własną [domenę](https://sokzkomucha.xyz). Cd. projektu; całkiem niedawno, może miesiąc bądź dwa temu, uświadomiłem sobie, że zamiast tworzyć osobne route do każdego zasobu na serwerze, mogę użyć linijki `app.use(express.static("public"));` by udostępnić wszystko z folderu `public`. Nie będę nic modyfikował, bo pierwsza klasa już się skończyła, ale tylko informuję.
